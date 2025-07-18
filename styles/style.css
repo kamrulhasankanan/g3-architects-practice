@@ -95,6 +95,18 @@
     margin-bottom: 31px;
 }
 
+/* features styles */
+
+.features{
+    justify-content: center;
+    align-items: center;
+}
+
+.features-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 
 
 /* responsive styles */
