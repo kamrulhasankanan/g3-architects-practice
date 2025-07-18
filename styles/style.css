@@ -203,6 +203,32 @@
     margin: 0px;
 }
 
+/* footer styles */
+
+.sponsors{
+    text-align: center;
+}
+.sponsors-title{
+    margin-bottom: 24px;
+}
+.sponsors-description{
+    margin-bottom: 50px;
+}
+
+.footer-bg{
+    max-width: 1140px;
+    margin: 130PX auto;
+    padding: 39px 200px;
+    border-radius: 8px;
+
+}
+
+.sponsors-logo{
+    display: flex;
+    justify-content: space-around;
+    filter: grayscale(100%);
+}
+
 /* responsive styles */
 
 @media screen and (max-width: 576px) {
