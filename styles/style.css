@@ -51,6 +51,11 @@
     margin-bottom: 50px;
 }
 
+.btn-primary:hover{
+    background: greenyellow;
+    font-weight: lighter;
+}
+
 /* nav styles */
 
 .bg-primary{
@@ -163,6 +168,10 @@
     padding: 30px;
     margin-left: -90px;
     margin-top: -120px;
+}
+
+.btn-secondary:hover{
+    background: #424242;
 }
 .feature-btn-Year{
     font-size: 65px;
