@@ -232,7 +232,10 @@
 /* responsive styles */
 
 @media screen and (max-width: 576px) {
-    .navbar, .teams, .feature-container{
+    .navbar, 
+    .teams, 
+    .feature-container, 
+    .sponsors-logo{
         flex-direction: column;
     }
     .teams{
@@ -258,5 +261,18 @@
     .feature-img img{
         max-width: 100%;
         height: auto;
+    }
+    .badge {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 20px;
+        gap: 20px;
+    }
+    .sponsors-logo img{
+        max-width: 100%;
+    }
+
+    .footer-bg{
+        padding: 5px;
+        margin: 5px;
     }
 }
