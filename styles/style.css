@@ -137,6 +137,7 @@
 
 .feature-img{
     max-width: 100%;
+    border-radius: 8px;
 }
 
 .feature-card{
@@ -174,6 +175,33 @@
     font-weight: 500;
 }
 
+/* some facts & badge styles */
+
+.some-facts-title{
+    margin-bottom: 24px;
+}
+
+.some-facts-description{
+    margin-bottom: 100px;
+}
+
+.badge{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    gap: 124px;
+    margin: 50px 100px;
+}
+
+.badge-box{
+    border: 1px solid #feb868;
+    padding: 30px 10px;
+    border-radius: 8px;
+}
+
+.badge-award-count{
+    margin: 0px;
+}
 
 /* responsive styles */
 
